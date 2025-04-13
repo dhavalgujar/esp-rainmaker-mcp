@@ -1,0 +1,10 @@
+[project]
+name = "esp-rainmaker-mcp"
+version = "0.1.0"
+description = "MCP wrapper for ESP-Rainmaker CLI"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "esp-rainmaker-cli>=1.1.4",
+    "mcp[cli]>=1.6.0",
+]
